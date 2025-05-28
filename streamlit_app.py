@@ -6,7 +6,7 @@ import pydeck as pdk
 
 st.markdown("""
 <h1 style='text-align: center; font-size: 36px; color: #2c3e50;'>
-🌟 Celebrating India's Cultural Legacy 🇮🇳<br>
+🌟 Celebrating India's Cultural Legacy <br>
 <small style='font-size:20px; color: #555;'>Art • Heritage • Tourism • Tradition</small>
 </h1>
 """, unsafe_allow_html=True)
