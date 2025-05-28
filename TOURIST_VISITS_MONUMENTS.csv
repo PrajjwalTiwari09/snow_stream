@@ -1,0 +1,145 @@
+SERIAL_NO,MONUMENT_NAME,STATE,DOMESTIC_2020_21,FOREIGN_2020_21,DOMESTIC_2021_22,FOREIGN_2021_22,GROWTH_DOMESTIC_PCT,GROWTH_FOREIGN_PCT
+1,Taj Mahal,Uttar Pradesh,"12,59,892","9,034","32,94,611","38,922",161.50%,330.80%
+2,Agra Fort,Uttar Pradesh,"3,71,242","2,810","10,27,462","13,598",176.80%,383.90%
+3,Fatehpur Sikri,Uttar Pradesh,"1,07,835",574,"1,57,253","2,122",45.80%,269.70%
+4,Akbar Tomb Sikandra,Uttar Pradesh,"99,509",321,"1,87,182","1,028",88.10%,220.20%
+5,Mariam tomb Sikandra,Uttar Pradesh,"9,765",31,"17,537",98,79.60%,216.10%
+6,Itimad-ud-Daulah Tomb,Uttar Pradesh,"41,016",410,"90,711","1,927",121.20%,370.00%
+7,Ram Bagh,Uttar Pradesh,"18,599",54,"30,965",95,66.50%,75.90%
+8,Mehtab Bagh,Uttar Pradesh,"62,652",544,"86,213","1,653",37.60%,203.90%
+9,Mausoleum,Uttar Pradesh,"91,185",321,"3,17,653",643,248.40%,100.30%
+10,Site of Sahet mahet,Uttar Pradesh,"27,201",35,"51,796",306,90.40%,774.30%
+11,Residency Building,Uttar Pradesh,"57,194",37,"1,11,829",130,95.50%,251.40%
+12,Piprahwa & Ganwaria,Uttar Pradesh,"12,062",3,"23,153",101,91.90%,3266.70%
+13,Gupta Temple & Varah Temple,Uttar Pradesh,931,0,"1,636",4,75.70%,
+14,Kalinjar Fort,Uttar Pradesh,"80,291",27,"88,603",7,10.40%,-74.10%
+15,Rani Lakshmi Bai Mahal,Uttar Pradesh,"5,712",5,"3,10,233",58,5331.30%,1060.00%
+16,Rani Jhansi Fort,Uttar Pradesh,"1,74,622",107,"10,836",15,-93.80%,-86.00%
+17,Lord Cornwallis Tomb,Uttar Pradesh,"5,289",9,"7,086",14,34.00%,55.60%
+18,Old Fort (Shahi Fort) Jaunpur,Uttar Pradesh,"67,163",127,"1,23,344",201,83.60%,58.30%
+19,Observatory of Man Singh,Uttar Pradesh,"21,379",11,"36,267",28,69.60%,154.50%
+20,Excavated Remains at sarnath,Uttar Pradesh,"1,70,590",384,"3,28,684","1,617",92.70%,321.10%
+21,Tomb of Lal Khan,Uttar Pradesh,"1,972",2,"2,515",4,27.50%,100.00%
+22,Ancient Buddhist Site known as Chaukhandi stupa,Uttar Pradesh,"14,956",46,"21,997",91,47.10%,97.80%
+23,Bekal Fort Pallikkare,Kerala,"1,15,333",242,"2,00,127",133,73.50%,-45.00%
+24,Mattancherry Palace Museum,Kerala,"23,026",177,"65,066","1,118",182.60%,531.60%
+25,Fort Palakkad,Kerala,"43,927",26,"96,142",10,118.90%,-61.50%
+26,Fort St. Angelo Kannur,Kerala,"65,683",115,"1,52,543",59,132.20%,-48.70%
+27,Group of Monuments Mamallapuram,Tamil Nadu,"8,08,145","29,145","11,42,150","1,44,984",41.30%,397.50%
+28,Gingee Fort,Tamil Nadu,"1,25,109","2,272","1,88,496","10,483",50.70%,361.40%
+29,Tiger headed Rock cut temple two other monuments Saluvankuppam,Tamil Nadu,"58,206",868,"81,313","25,579",39.70%,2846.90%
+30,Fort on Rock Dindigual,Tamil Nadu,"25,603",99,"27,368","4,073",6.90%,4014.10%
+31,Moovarkoil Kodumbalur,Tamil Nadu,"1,476",9,829,161,-43.80%,1688.90%
+32,Rock-cut Jain Temple Sittannavasasl,Tamil Nadu,"41,791",235,"44,408","5,432",6.30%,2211.50%
+33,Tirumalai Nayak's Palace,Tamil Nadu,217,3,530,82,144.20%,2633.30%
+34,Natural Caven with inscription eladipattam Sittannavasal,Tamil Nadu,"2,490",19,"22,800","2,589",815.70%,13526.30%
+35,Fort Museum Thirumayam,Tamil Nadu,"41,487","1,555","62,622","8,422",50.90%,441.60%
+36,Fort Vattakottai,Tamil Nadu,"5,058",36,"53,200","9,174",951.80%,25383.30%
+37,Buddhist Caves,Madhya Pradesh,"23,692",0,"27,260",1,15.10%,
+38,The palace situated in the fort Burhanpur,Madhya Pradesh,"13,926",27,"31,284",76,124.60%,181.50%
+39,Hoshang Shah's Tomb,Madhya Pradesh,"57,769",39,"1,13,132",107,95.80%,174.40%
+40,Group of monument Royal Palace Mandu,Madhya Pradesh,"1,81,868",128,"3,44,821",92,89.60%,-28.10%
+41,Roopmati's Pavilion,Madhya Pradesh,"1,48,680",91,"3,36,231",55,126.10%,-39.60%
+42,Buddhist Monuments Sanchi,Madhya Pradesh,"58,979",41,"1,18,208",171,100.40%,317.10%
+43,Gwalior Fort,Madhya Pradesh,"1,01,464",130,"2,03,163",209,100.20%,60.80%
+44,Buddhist cave no 01 to 51 Dhamnar Tehsil Garoth,Madhya Pradesh,"12,303",13,"24,083",65,95.70%,400.00%
+45,Badal Mahal Gateway Chanderi,Madhya Pradesh,"9,689",5,"11,027",6,13.80%,20.00%
+46,Caves 1 to 20 Udaygiri Vidisha,Madhya Pradesh,"11,601",10,"35,530",42,206.30%,320.00%
+47,Bir Singh Palace Datia,Madhya Pradesh,"14,045",12,"26,306",29,87.30%,141.70%
+48,Ancient Site and Adamgrah rock shelter Kalamdi Rasuliya and kishanpur,Madhya Pradesh,"16,546",8,"18,655",41,12.70%,412.50%
+49,Western Group of Temples Khajuraho,Madhya Pradesh,"1,28,515",275,"2,43,475",795,89.50%,189.10%
+50,Group of Temple Parameshvar shiv and Karan Temple Amarkantak,Madhya Pradesh,"23,598",13,"30,981",133,31.30%,923.10%
+51,Durga temple complex Aihole,Karnataka,"75,089",99,"98,363",69,31.00%,-30.30%
+52,Jaina & Vaishnava Cave Badami,Karnataka,"1,72,259",167,"2,34,156",199,35.90%,19.20%
+53,Group of Monuments (WH) Pattadakal,Karnataka,"1,23,110",61,"1,57,634",79,28.00%,29.50%
+54,Gol Gumbaz Vijayapura,Karnataka,"2,83,256",75,"4,47,627",263,58.00%,250.70%
+55,Ibrahim Rauza Bijapur,Karnataka,"57,759",12,"1,02,094",20,76.80%,66.70%
+56,Temples & Sculpture Shed lakkumdi,Karnataka,"5,652",0,"8,067",273,42.70%,
+57,Group of Monuments Hampi,Karnataka,"2,73,456",627,"4,25,950","1,244",55.80%,98.40%
+58,Bellary Fort,Karnataka,"11,069",9,"17,263",15,56.00%,66.70%
+59,Dariya Daulath Bagh,Karnataka,"89,006",306,"1,42,935",891,60.60%,191.20%
+60,Keshava Temple,Karnataka,"64,222",196,"75,793",662,18.00%,237.80%
+61,Palace of Tipu Sultan,Karnataka,"38,706",270,"1,00,193",976,158.90%,261.50%
+62,Fortress and Temple Chitrudurga Fort,Karnataka,"1,44,862",297,"2,10,483",819,45.30%,175.80%
+63,Cooch Bihar Palace,West Bengal,"1,26,135",161,"2,28,176",162,80.90%,0.60%
+64,Hazarduari Palace,West Bengal,"3,61,546",649,"3,57,127",167,-1.20%,-74.30%
+65,Bishnupur Temples,West Bengal,"1,17,107",237,"1,11,814",222,-4.50%,-6.30%
+66,Metcalfe Hall,West Bengal,"7,818",24,"7,812",36,-0.10%,50.00%
+67,Asokan Rock Edict Junagadh,Gujarat,"10,498",16,"31,685",27,201.80%,68.80%
+68,Buddhist Caves Junagadh,Gujarat,58,0,0,0,-100.00%,
+69,Baba Pyara Caves & Khapra Khodiya Caves Junagadh,Gujarat,"1,691",1,"2,715",6,60.60%,500.00%
+70,Champaner Monuments Pavagadh,Gujarat,"39,014",81,"61,303",43,57.10%,-46.90%
+71,Sun temple Modhera,Gujarat,"85,407",103,"2,24,982",603,163.40%,485.40%
+72,Rani Ki-Vav Patan,Gujarat,"96,900",143,"2,68,628",228,177.20%,59.40%
+73,Rudabai Step Well Adalaj,Gujarat,"86,840",204,"2,67,707",522,208.30%,155.90%
+74,Sun Temple Konark,Odisha,"5,30,886",142,"6,72,891",314,26.70%,121.10%
+75,Ancient Remains on both Udaigiri & Khandagiri Hills,Odisha,"73,727",57,"98,754",119,33.90%,108.80%
+76,Rajarani Temple,Odisha,"8,237",3,"12,385",52,50.40%,1633.30%
+77,The Hill Containing Many Valuable Sculptures and Images Ratnagiri,Odisha,"20,616",20,"16,316",32,-20.90%,60.00%
+78,Ruins of Buddhist Temples and Images lalitgiri,Odisha,"18,359",8,"24,361",260,32.70%,3150.00%
+79,Ajanta Caves,Maharashtra,"47,554",82,"1,38,503",662,191.30%,707.30%
+80,Ellora Caves,Maharashtra,"1,63,313",159,"4,11,915",911,152.20%,473.00%
+81,Tomb of Rabia Durani (Bibi ka Maqbara),Maharashtra,"2,03,791",100,"3,97,374",536,95.00%,436.00%
+82,Daulatabad Fort,Maharashtra,"1,05,434",49,"2,04,834",264,94.30%,438.80%
+83,Pandulena Caves,Maharashtra,29,0,"72,661",221,250455.20%,
+84,Aurangabad Caves,Maharashtra,"34,976",19,"68,642",79,96.30%,315.80%
+85,Elephanta Caves,Maharashtra,"82,136",281,"2,19,837","1,321",167.60%,370.10%
+86,Buddhist Caves Kanheri,Maharashtra,213,0,"87,182",576,40830.50%,
+87,Shaniwarwada,Maharashtra,"1,60,547",87,"5,16,448",478,221.70%,449.40%
+88,Aga Khan Palace Building,Maharashtra,"18,963",55,"41,150",197,117.00%,258.20%
+89,Cave Temple and Inscriptions Junaar Lenyadri,Maharashtra,"73,899",6,"1,73,143",20,134.30%,233.30%
+90,Caves Temples and inscriptions Karla,Maharashtra,"51,045",21,"1,56,834",150,207.20%,614.30%
+91,Cave Temple & Inscriptions Bhaja,Maharashtra,"10,976",24,"35,790",81,226.10%,237.50%
+92,Raigad Fort,Maharashtra,"76,438",0,"1,72,058",12,125.10%,
+93,Kolaba Fort Alibag,Maharashtra,"50,421",12,"33,073",19,-34.40%,58.30%
+94,Old Fort Sholapur,Maharashtra,"11,293",1,"5,755",5,-49.00%,400.00%
+95,Janjira Fort Murud,Maharashtra,"1,49,221",7,"1,87,947",68,26.00%,871.40%
+96,Kondiote Caves,Maharashtra,167,0,"9,373",76,5512.60%,
+97,Lohgad Fort,Maharashtra,"31,042",21,"85,972",59,177.00%,181.00%
+98,Gawilgarh Fort,Maharashtra,5,0,"9,219",5,184280.00%,
+99,Ancient Buddhist Remains comprising monastery stupa rock sculptures inscriptions etc Mansar,Maharashtra,8,0,"1,906",8,23725.00%,
+100,Suraj Kund,Haryana,"11,132",14,"14,651",49,31.60%,250.00%
+101,Sheikh Chilli's Tomb,Haryana,"30,292",75,"52,951",147,74.80%,96.00%
+102,Khan-I-Khana,Delhi,"3,002",10,"3,448",30,14.90%,200.00%
+103,Sultanghari Tomb,Delhi,"22,969",233,299,5,-98.70%,-97.90%
+104,Tughluqabad,Delhi,"12,856",109,"20,925",132,62.80%,21.10%
+105,Red Fort,Delhi,"1,87,380","1,438","13,23,501","5,579",606.30%,288.00%
+106,Humayun Tomb,Delhi,"2,43,836","2,381","3,92,378","4,892",60.90%,105.50%
+107,Qutub Minar,Delhi,"4,76,063","2,849","11,57,664","8,456",143.20%,196.80%
+108,Hauzkhas,Delhi,"39,837",148,"45,503",152,14.20%,2.70%
+109,Jantar Mantar,Delhi,"76,108",230,"1,25,545",521,65.00%,126.50%
+110,Safdarjung Tomb,Delhi,"56,776",392,"74,898",627,31.90%,59.90%
+111,Kotla Feroz Shah,Delhi,"27,763",106,"54,145",106,95.00%,0.00%
+112,Purana Qila,Delhi,"2,00,846",936,"4,66,334",848,132.20%,-9.40%
+113,Ahom Raja's Palace,Assam,"25,443",69,"34,640",29,36.10%,-58.00%
+114,Kareghar of Ahom Kings Sibasagar,Assam,"54,595",93,"46,408",22,-15.00%,-76.30%
+115,Ranghar Pavillion Jaisagar,Assam,"33,939",75,"39,211",22,15.50%,-70.70%
+116,Bishnudol,Assam,"2,921",0,"2,606",2,-10.80%,
+117,Group of four Maidans Charaideo Sibasagar,Assam,"19,866",72,"34,809",52,75.20%,-27.80%
+118,Upper Fort Aguada,Goa,"3,79,726",340,"6,56,756","1,057",73.00%,210.90%
+119,Charminar,Telangana,"2,97,548",182,"4,40,549",648,48.10%,256.00%
+120,Golconda,Telangana,"5,27,096",912,"9,46,972","1,511",79.70%,65.70%
+121,Warangal,Telangana,"64,339",54,"85,946",106,33.60%,96.30%
+122,Ancient Site Bhangarh,Rajasthan,"53,946",85,"1,47,549",152,173.50%,78.80%
+123,Baori at Abhaneri,Rajasthan,"44,284",115,"57,881",817,30.70%,610.40%
+124,Deeg Bhawan,Rajasthan,"12,772",30,"33,004",27,158.40%,-10.00%
+125,Chittaurgarh Fort,Rajasthan,"2,23,328",206,"5,90,389",288,164.40%,39.80%
+126,Kumbhalgarh Fort,Rajasthan,"2,03,050",208,"3,24,707",257,59.90%,23.60%
+127,Marble Pavillion and balustrade on the Ana Sagar bund and ruins of the marble Hammam Behind the Ana sagar Bund,Rajasthan,"1,31,764",141,"4,56,924",23,246.80%,-83.70%
+128,Ancient Palace Leh,Ladakh,"2,047",6,"52,402",176,2459.90%,2833.30%
+129,Remains of Patliputra Site of Mauryan Palace Kumrahar,Bihar,"25,834","25,876","81,013",11,213.60%,-100.00%
+130,Ancient site of Vaishali Kolhua,Bihar,"49,207","49,213","46,095",28,-6.30%,-99.90%
+131,Excavated Remains at Nalanda,Bihar,"1,05,748","1,05,816","1,79,597",281,69.80%,-99.70%
+132,Ancient Site of Vikramshila Antichak,Bihar,"27,583","27,583","33,322",15,20.80%,-99.90%
+133,Sher Shah's Tomb,Bihar,"95,051","95,133","1,66,266",17,74.90%,-100.00%
+134,Temple of Laxman and Old sites including sculptures sirpur,Chhattisgarh,"44,742","44,746","53,049",1,18.60%,-100.00%
+135,Ruined Fort kangra,Himachal Pradesh,"1,00,454",252,"81,894",351,-18.50%,39.30%
+136,Rock-cut Temples and Sculptures,Himachal Pradesh,"53,123",209,"40,771",272,-23.30%,30.10%
+137,Palace Complex at Ramnagar Distt. Udhampur,Jammu & Kashmir,"2,129",0,"5,595",0,162.80%,
+138,Avantiswamin Temple Avantipur District Pulwama,Jammu & Kashmir,"5,706",8,"24,957",6,337.40%,-25.00%
+139,Group of Temples at kiramchi District Udhampur,Jammu & Kashmir,"5,816",0,"7,383",8,26.90%,
+140,Amaravati mahastupa,Andhra Pradesh,"1,864",0,"3,741",17,100.70%,
+141,Undavalli caves,Andhra Pradesh,"52,924",89,"77,133",40,45.70%,-55.10%
+142,Nagarjuna Kunda,Andhra Pradesh,0,0,"2,611",1,,
+143,Chandragiri Monument,Andhra Pradesh,"51,113",38,"80,189",4,56.90%,-13.20%
+144,Buddhist Remains on hill top at Guntupalli W.G.District,Andhra Pradesh,"10,219",10,"14,134",22,38.30%,120.00%
