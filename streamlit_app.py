@@ -75,16 +75,16 @@ with tab1:
     with st.expander("📌 Filters for Tourism", expanded=True):
         selected_year = st.selectbox("Select Year", years, key="tourism_year")
         selected_state = st.selectbox("Select State", states, key="tourism_state")
-        
+
     # Filter for current and previous year
     filtered_df = df_states_long[
-        (df_states_long["YEAR"] == selected_year) & 
+        (df_states_long["YEAR"] == selected_year) &
         (df_states_long["STATE"] == selected_state)
     ]
-    
+
     prev_year = selected_year - 1
     prev_df = df_states_long[
-        (df_states_long["YEAR"] == prev_year) & 
+        (df_states_long["YEAR"] == prev_year) &
         (df_states_long["STATE"] == selected_state)
     ]
 
@@ -96,20 +96,19 @@ with tab1:
             previous_val = prev_df[prev_df["VISITOR_TYPE"] == visitor_type]["VISITORS"].sum()
             previous_val = int(str(previous_val).replace(",", "")) if not pd.isna(previous_val) else 0
         else:
-            previous_val = 0  # Use 0 if no previous year data
+            previous_val = 0
 
         diff = current_val - previous_val
         pct_change = (diff / previous_val * 100) if previous_val != 0 else 100.0
 
         return current_val, previous_val, diff, pct_change
 
+    # KPI Metrics
     st.markdown("### ✨ Key Metrics Overview")
-
     col1, col2 = st.columns(2)
 
     for col, vtype in zip([col1, col2], ["DOMESTIC", "FOREIGN"]):
         cur, prev, diff, pct = get_kpi_data(vtype)
-
         color = "green" if diff > 0 else "red"
         symbol = "🔺" if diff > 0 else "🔻"
 
@@ -160,14 +159,22 @@ with tab1:
     with col2:
         st.altair_chart(foreign_chart, use_container_width=True)
 
-    # Growth Trends (full-width, properly aligned)
-    st.markdown("### 🚀 Visitor Growth Trends")
-    growth_chart = alt.Chart(df_states.melt(
+    # Growth Trends
+    st.markdown("### 🚀 Tourism Growth Trends by State")
+
+    df_states["DTV_GROWTH_PCT"] = pd.to_numeric(df_states["DTV_GROWTH_PCT"], errors="coerce")
+    df_states["FTV_GROWTH_PCT"] = pd.to_numeric(df_states["FTV_GROWTH_PCT"], errors="coerce")
+
+    growth_df = df_states.melt(
         id_vars=["STATE"],
         value_vars=["DTV_GROWTH_PCT", "FTV_GROWTH_PCT"],
         var_name="Visitor_Type",
         value_name="Growth_Pct"
-    )).mark_bar().encode(
+    )
+
+    growth_df = growth_df.dropna(subset=["Growth_Pct"])
+
+    growth_chart = alt.Chart(growth_df).mark_bar().encode(
         x=alt.X('STATE:N', sort='-y'),
         y=alt.Y('Growth_Pct:Q', title="Growth (%)"),
         color='Visitor_Type:N',
@@ -179,6 +186,8 @@ with tab1:
     ).interactive()
 
     st.altair_chart(growth_chart, use_container_width=True)
+
+
 # --- TAB 2: Monuments ---
 with tab2:
     st.subheader("🏛️ Monuments Visitor Insights")
@@ -274,7 +283,11 @@ with tab3:
 
     # Dropdown + Table of heritage names
     st.markdown("### 🔎 See Practices Listed by Year")
-    selected_year_for_names = st.selectbox("Select Year", sorted(df_heritage["YEAR_LISTED"].unique()))
+    selected_year_for_names = st.selectbox(
+        "Select Year",
+        sorted(df_heritage["YEAR_LISTED"].unique()),
+        key="heritage_year_select"
+    )
     names_for_selected_year = df_heritage[df_heritage["YEAR_LISTED"] == selected_year_for_names][["NAME", "TYPE", "REGION"]]
 
     st.dataframe(
@@ -321,26 +334,35 @@ with tab3:
         "Wayside Amenities Uttar Pradesh and Bihar": [25.5, 82.0],
     }
 
+    # Clean numeric columns
+    for col in ["AMOUNT_SANCTIONED", "AMOUNT_UTILISED", "NUM_PROJECTS"]:
+        df_swadesh[col] = (
+            df_swadesh[col]
+            .astype(str)
+            .str.replace(",", "", regex=False)
+            .str.strip()
+        )
+        df_swadesh[col] = pd.to_numeric(df_swadesh[col], errors="coerce")
 
     # Add coordinates
     df_swadesh["LAT"] = df_swadesh["STATE_UT"].map(lambda x: state_coords.get(x, [None, None])[0])
     df_swadesh["LON"] = df_swadesh["STATE_UT"].map(lambda x: state_coords.get(x, [None, None])[1])
     df_map = df_swadesh.dropna(subset=["LAT", "LON"])
 
-    # Filter by state (optional)
+    # Filter by state
     state_options = ["All"] + sorted(df_map["STATE_UT"].unique())
-    selected_state = st.selectbox("Select a State/UT", state_options)
+    selected_state = st.selectbox("Select a State/UT", state_options, key="swadesh_state_select")
 
     if selected_state != "All":
         df_map = df_map[df_map["STATE_UT"] == selected_state]
 
-    # Build Pydeck Map Layer (no flag, no color scale, no bubble size)
+    # Build Pydeck Map Layer
     layer = pdk.Layer(
         "ScatterplotLayer",
         data=df_map,
         get_position='[LON, LAT]',
         get_radius=7000,
-        get_fill_color=[30, 144, 255],  # Blue
+        get_fill_color=[30, 144, 255],  # Dodger blue
         pickable=True,
         opacity=0.9,
     )
@@ -356,5 +378,8 @@ with tab3:
         map_style="mapbox://styles/mapbox/light-v9",
         initial_view_state=view_state,
         layers=[layer],
-        tooltip={"text": "State: {STATE_UT}\nProjects: {NUM_PROJECTS}\nSanctioned: ₹{AMOUNT_SANCTIONED}\nUtilized: ₹{AMOUNT_UTILISED}"}
+        tooltip={
+            "text": "State: {STATE_UT}\nProjects: {NUM_PROJECTS}\nSanctioned: ₹{AMOUNT_SANCTIONED}\nUtilized: ₹{AMOUNT_UTILISED}"
+        }
     ))
+
